@@ -1,4 +1,4 @@
-# simple-js-calculator
+# Simple vanilla JavaScript calculator
 Pure vanilla JavaScript calculator using modern ES6 syntax, flexbox and css grid
 
 npm install or npm i - to install node_modules 
