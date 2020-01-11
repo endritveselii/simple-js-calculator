@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator__grid">
+            <div class="calculator__output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <button class="btn btn--operator" data-percentage>%</button>
+            <button class="btn btn--operator" data-all-clear>CE</button>
+            <button class="btn btn--operator" data-clear>C</button>
+            <button class="btn btn--operator" data-delete>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px"
+                    viewBox="0 0 90 90" enable-background="new 0 0 90 90" xml:space="preserve">
+                    <image id="image0" width="90" height="90" x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAQAAACSoYmJAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                    AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElN
+                    RQfkAQUEDB9tC8CTAAACx0lEQVRo3u3asWsTURwH8O/TatAqLoKmgU7aTbCj9A+QghVKFwWHbA6K
+                    a0/QQcFNUCdBxMWMTg4GRwexIlaxOvkHiFAdpMFcVb4OSc809+7evXcvfTn5fZdA8svlw93vcvd+
+                    CSCRSCQSiUQikUgk4x5VvJT7sYTzOI5p7N1RYwcf0cIDtWn9Tp7lV4bMOzZsyTeDgntZpc0R5sXQ
+                    3n4u9TwFepqzeI09I+tYm6yoU4XQrOENToTW9rOhDgLALmPhrbEhAwd6D4Y9zTm8wO7Q1n9Ryojm
+                    JN7jWGhoGp3fHvfGi5zQs1/iAp6G5qW4+e3Bw1jD0dBIPTq7Pe5bkjcRoY46IsSF6uOk3v6eQh9e
+                    sL5aLSfvnWfXWN3lfFIfFf+QPHKD363RA8eFp/kztzbmwkD1EQ9oKratydvQBvY2MsApH+jLDmQy
+                    GtpKVpMMNEa/8mppNGfYcUKnMTp2sSo7NCe44kQmU4dd0yTmCif0dWeyGVWarEVzlnEpdB7MA1mD
+                    Zo0fSpKzcV7IOvRtD2RSf7KVOv0y0Zzjb09ozd72sZdTaE7yszeyge1OHkbf8UomNU1SrjF06HXv
+                    aC27HHkLbV7YjmG20I+9bznGomoPP6naWCx4v21OJU/ESn7lAZW8uFT0Mg7wZOVumACA10ZE9sTW
+                    oyf4akRkL+ysM7t6yy3AeWG7XBCTZvuYe1DxmQPafYTgY+4BsMFvZdCWwxofcw/AaSyWzD2sx2Ll
+                    5x7Jpp5YomNGrLPOqOCJ1U3qLa4NPdv/NepV62jCdDgCJWcRoJ7jUWhehizvxUr+UKQ6aOJPaGg6
+                    hjWieom7oYkalalgrH5m/qEOAQVW4ypGE79Ca/v51HsoMEJQq7gSWttPy6qaN6wv6/7z1upPKgDA
+                    M/wSmDyVHHsL9j4s4RxmMI3ajjbFBtbQwkOHP15JJBKJRCKRSCQSSbD8BVTqv5vpOg9DAAAAJXRF
+                    WHRkYXRlOmNyZWF0ZQAyMDIwLTAxLTA1VDA0OjEyOjMxKzAzOjAwnqj9bgAAACV0RVh0ZGF0ZTpt
+                    b2RpZnkAMjAyMC0wMS0wNVQwNDoxMjozMSswMzowMO/1RdIAAAAASUVORK5CYII=" />
+                </svg>
+            </button>
+
+            <button class="btn btn--operator" data-divide><sup>1</sup>/x</button>
+            <button class="btn btn--operator" data-power>x<sup>2</sup></button>
+            <button class="btn btn--operator" data-square>&radic;</button>
+            <button class="btn btn--operator" data-operation>÷</button>
+
+            <button class="btn" data-number>1</button>
+            <button class="btn" data-number>2</button>
+            <button class="btn" data-number>3</button>
+            <button class="btn btn--operator" data-operation>*</button>
+
+            <button class="btn" data-number>4</button>
+            <button class="btn" data-number>5</button>
+            <button class="btn" data-number>6</button>
+            <button class="btn btn--operator" data-operation>+</button>
+
+            <button class="btn" data-number>7</button>
+            <button class="btn" data-number>8</button>
+            <button class="btn" data-number>9</button>
+            <button class="btn btn--operator" data-operation>-</button>
+
+            <button class="btn" data-number>.</button>
+            <button class="btn" data-number>0</button>
+            <button class="btn" data-negative>-/+</button>
+            <button class="btn btn--operator btn--equal" data-equals>=</button>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="dist/app.bundle.js"></script>
+</body>
+
+</html>
